@@ -1,0 +1,42 @@
+{
+	"firstRunOEMPins" : 
+	[
+		{
+			"caption" : 
+			{
+				"default" : "Personalize your PC"
+			},
+			"packagedAppId" : "AD2F1837.myHP_v10z8vjag6ke6!App"
+		}
+	],
+	"primaryOEMPins" : 
+	[
+		{
+			"packagedAppId" : "AD2F1837.OMENCommandCenter_v10z8vjag6ke6!AD2F1837.OMENCommandCenter"
+		},
+		{
+			"packagedAppId" : "AD2F1837.HPPalette_v10z8vjag6ke6!App"
+		},
+		{
+			"desktopAppLink" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Amazon.com.lnk"
+		},
+		{
+			"desktopAppLink" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe offers.lnk"
+		}
+	],
+	"secondaryOEMPins" : 
+	[
+		{
+			"desktopAppLink" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\ExpressVPN.lnk"
+		},
+		{
+			"packagedAppId" : "C27EB4BA.DropboxOEM_xbfy0k16fey96!App"
+		},
+		{
+			"packagedAppId" : "57540AMZNMobileLLC.AmazonAlexa_22t9g3sebte08!App"
+		},
+		{
+			"desktopAppLink" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Agoda.lnk"
+		}
+	]
+}

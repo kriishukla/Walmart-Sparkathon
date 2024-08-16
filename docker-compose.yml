@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  server:
+    build:
+      context: ./services/api
+      dockerfile: Dockerfile.dev
+    container_name: server
+    volumes:
+      - ./services/api/:/app
+      - server_output:/app/output
+      - server_Database:/app/Database
+    ports:
+      - "8000:80"
+    environment:
+      - SERVER_ADDRESS=http://image-generator:8051 # Update the hostname and port as needed
+      - IMAGE_GENERATOR_PORT=8502     # Update the port of your image generator
+
+  web:
+    build:
+      context: ./services/web-app
+      dockerfile: Dockerfile.dev
+    container_name: web
+    depends_on:
+      - server
+    volumes:
+      - ./services/web-app/:/usr/app
+      - node_modules_web:/usr/app/node_modules
+    ports:
+      - "3000:80"
+
+
+volumes:
+  node_modules_web:
+  server_output:
+  server_Database:

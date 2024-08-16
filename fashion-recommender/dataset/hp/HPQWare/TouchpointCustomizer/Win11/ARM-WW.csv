@@ -1,0 +1,11 @@
+Name,Order,Size,Region,AppType,Value,ChasisType,BrandName,RegionCode,SKUOptionConfig,ChannelID,FeatureBytes,UID
+Simple Solitaire,1,2x2,ALL,AppID,26720RandomSaladGamesLLC.SimpleSolitaire_kx24dqmazqk8j!App,,,,,,,
+Agoda.com,2,2x2,ALL,DtAppLinkPath,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Agoda.lnk,,,,,,,
+Booking.com,2,2x2,ALL,DtAppLinkPath,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Booking.com.lnk,,,,,,,
+QuickDrop,101,Taskbar,ALL,AppID,AD2F1837.HPQuickDrop_v10z8vjag6ke6!App,,,,,,,
+Amazon.com,102,Taskbar,ALL,DtAppLinkPath,C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Amazon.com.lnk,,,,,,,
+Amazon.com,1,EdgeFav,ALL,Link,http://www.amazon.com/gp/ubp/oneButton/config/redirectHome?tagbase=hpbk-ubpl&ref=aagateway-edgebook-hp,,,,,,,
+Agoda.com,2,EdgeFav,ALL,Link,https://www.agoda.com/?cid=1649895&tag=NW22C1EF,,,,,,,
+Booking.com,2,EdgeFav,ALL,Link,https://www.booking.com/index.html?aid=1980379&label=NW22C1EF,,,,,,,
+McAfee,3,EdgeFav,ALL,Link,http://www.mcafee.com/consumer/v/browserfav/hp.html,,,,,,,
+LastPass,4,EdgeFav,ALL,Link,http://js.redirect.hp.com/jumpstation?bd=lastpass&c=*&locale=*&pf=*&s=*&tp=edge,,,,,,,
